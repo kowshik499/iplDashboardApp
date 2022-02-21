@@ -8,9 +8,14 @@
   justify-content: center;
 }
 
+.teams-list-cont {
+  width: 60%;
+}
+
 .main-head-cont {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .ipl-logo {
@@ -22,5 +27,18 @@
   font-size: 40px;
   color: #ffffff;
   font-weight: bold;
-  font-family: 'Roboto';
+  font-family: 'Bree Serif';
+}
+
+.teams-cont {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.loader-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
 }
